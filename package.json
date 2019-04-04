@@ -1,7 +1,7 @@
 {
   "name": "redlandriver-api",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
