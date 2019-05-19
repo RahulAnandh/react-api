@@ -1,0 +1,33 @@
+we are creting API
+
+This API will respond to the request which is made by browser
+
+first we need node.js software to run js files out side the browser
+
+make a file called index.js this file will be the main page of api application
+
+install express.js to the application to handle request and response 
+
+npm install express --save
+
+after we import express package to index.js file
+
+we need to install "nodemon" to improve our develepment speed.this package will run index file when developer 
+make changes in api application
+
+
+
+we can write "nodemon index" insted "node index"
+
+npm install nodemon --save-dev
+
+
+
+we need body- parser package toextract json file and handle it
+
+next we need mongoose to handle database
+
+
+
+
+
