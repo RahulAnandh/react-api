@@ -10,7 +10,7 @@ router.get('/orderlist',function(req,res){
 })
 })
 router.post('/orderlist',function(req,res){
-    OrderList.create(req.body).then(function(emp){
+    OrderList.create(req.body).then(function(emp){ 
         res.send(emp);
         console.log("Order List is Added...");
     })  
