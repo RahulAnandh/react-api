@@ -5,7 +5,9 @@ const mongoose = require('mongoose');
 const app = express();
 //set up express app
 
-mongoose.connect('mongodb://heroku_4bnk53kd:appukuttan234@ds229826.mlab.com:29826/heroku_4bnk53kd');
+// mongoose.connect('mongodb://heroku_4bnk53kd:appukuttan234@ds229826.mlab.com:29826/heroku_4bnk53kd');
+mongoose.connect('mongodb://rahulanandh80:@ppukuttan1994@ds229826.mlab.com:29826/heroku_4bnk53kd');
+
 //connect to mongodb
 mongoose.Promise = global.Promise;
 app.use(bodyParser.urlencoded({extended:false}));
