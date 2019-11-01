@@ -23,7 +23,7 @@ app.use((req,res,next)=>{
     }
     next();
 })
-app.use('/api',require('./'))
+app.use('/api',require('./routes/employee-routes'))
 app.use('/api',require('./routes/employee-routes'))
 app.use('/api',require('./routes/student-routes'))
 app.use('/api',require('./routes/product-routes'))
